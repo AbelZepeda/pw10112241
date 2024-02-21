@@ -1,0 +1,16 @@
+body{
+    /* tama;o estandar de texto default es de 16px=1em */
+    border: 1px solid red;
+    font-size: 16px; /*1em*/
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header{
+    background-color: #D1E3EE;
+}
+
+#logo{ /*id='logo'*/
+    margin: -150px 0px 0px 0px;
+    /* margin-top: -150px; */
+}
