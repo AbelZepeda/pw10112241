@@ -10,7 +10,44 @@ header{
     background-color: #D1E3EE;
 }
 
+/* acomodar el menu */
+header nav ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+/* borde redondeado a las 2 cajas de buscar */
+header nav form input{
+    border-radius: 5px;
+}
+
+/* cuadro buscar */
+header nav form input[type='submit']{
+    background: green;
+    color: white;
+    border: 1px solid green;
+}
+
+header nav form{
+    /* acomodar el buscador a la derecha */
+    float: right;
+    /* separar buscador de la orilla */
+    margin-right: 20px;
+    /* subir el cuadro de texto  */
+    margin-top: -35px;
+}
+
+header nav{
+    background: #026DC6;
+    margin: 0px auto;
+    /* caja azul aumenta 2 pixeles hacia arriba */
+    padding: 2px 0px;
+    /* esquinas redondeadas */
+    border-radius: 5px;
+}
+
 #logo{ /*id='logo'*/
     margin: -150px 0px 0px 0px;
-    /* margin-top: -150px; */
 }
