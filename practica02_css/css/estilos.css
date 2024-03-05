@@ -36,3 +36,65 @@ header nav{
 #paint{
     float: right;
 }
+
+#primerseccion article{
+    display: inline-block;
+}
+
+#secc01art01{
+    border: 1px solid red;
+    width: 61%;
+}
+
+#secc01art02{
+    width: 30%;
+    vertical-align: top; /*alinear el texto*/
+    margin-left: 50px;
+}
+
+
+#secc01art02 ul {
+list-style: none;}
+
+/* puntos rosas we can offer... */
+#secc01art02 ul li:before{
+    color: #FF0099;
+    content: " ● ";
+}
+
+/* bajar la imagen para el acomodo de we can offer */
+#primerseccion{
+margin-top: 60px;
+}
+
+.colorazul{
+    color: #4267B3;
+}
+
+.colorrosa{
+    color: #FF0099;
+}
+
+.colorverde{
+    color: #8BC500;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.letragrande{
+    font-size: 3.5em; /*3.5 X 16px*/
+}
+
+/* alinear imagen bgoffer */
+#bgoffer{
+    position: relative;
+    top: -410px;
+    left: -35px;
+}
+
+#primerseccion{
+    height: 318px;
+    margin-top: 60px;
+}
