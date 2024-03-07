@@ -39,6 +39,7 @@ header nav{
 
 #primerseccion article{
     display: inline-block;
+    vertical-align: top;
 }
 
 #secc01art01{
@@ -97,4 +98,44 @@ margin-top: 60px;
 #primerseccion{
     height: 318px;
     margin-top: 60px;
+}
+
+#segundaseccion{
+    text-align: right;
+    padding-right: 140px;
+}
+
+#terceraseccion article{
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+}
+
+#terceraseccion article img{
+    vertical-align: middle;
+}
+
+#secc03art04{
+    padding-top: 60px;
+}
+
+.letramediana{
+    font-size: 2em;
+}
+
+#footersec01{
+    border: 1px solid red;
+    float: right;
+    position: relative;
+    top: -55px;
+    left: -35px;
+}
+
+#footersec02{
+    background-color: #4267B3;
+    border: 1px solid red;
+}
+#footersec02 article{
+    display: inline-block;
+    width: 32%;
 }
