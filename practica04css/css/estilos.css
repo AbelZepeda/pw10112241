@@ -1,0 +1,83 @@
+body{
+    font-size: 16px;
+    margin: 0px auto; /*centrado*/
+    max-width: 1024px;
+    position: relative;
+    border: 2px solid red;
+}
+
+header{
+    position: relative;
+}
+
+#Bandera{
+    position: absolute;
+    right: 40px;
+    margin: 15px;
+}
+
+#logoRojo{
+    position: absolute;
+    right: 90px;
+    margin: 15px;
+}
+
+#mundo{
+    position: absolute;
+    right: -15px;
+    margin: 15px;
+}
+
+#FirstBike{
+    position: absolute;
+    left: 20px;
+    margin-top: 15px;
+}
+
+#shop{
+    position: absolute;
+    right: 130px;
+    margin-top: 70px;
+}
+
+#Bike{
+    position: absolute;
+    right: 10px;
+    margin-top: -5px;
+}
+
+#years{
+    position: absolute;
+    right: 260px;
+    margin-top: 350px;
+}
+
+section nav ul {
+    list-style-type: none;
+    margin: 10; /* Asegura que no haya margen exterior en la lista */
+    padding: 0; 
+}
+
+section nav ul li {
+    display: inline-block;
+    margin-right: 5px; /* Espaciado entre elementos */
+    margin-left: 20px; /* Margen izquierdo para despegar del borde */
+    margin-top: 150px;
+}
+
+footer article {
+    margin-top: 150px;
+    display: inline-block;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.letragrande{
+    font-size: 3.5em;
+}
+
+.colorverde{
+    color: #8BC500;
+}
