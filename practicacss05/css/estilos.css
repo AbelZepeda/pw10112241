@@ -1,3 +1,7 @@
+html{
+    --color-blanco: white;  
+}
+
 body{
     font-size: 16px;
     margin: 0px auto; /*centrado*/
@@ -9,5 +13,31 @@ header {
 }
 
 header img{
-    align-content: center;
+    margin-left: 350px;
+}
+
+
+section article nav {
+    background-color: #1D4973;
+    width: 228px;
+}
+
+section nav ul li{
+    padding: 5px;
+}
+
+main section article :nth-child(1){
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+#sett{
+ background-color: #EFEFEF;   
+}
+
+#notifications{
+    margin-left: 550px;
+}
+.letra-blanca{
+    color: var(--color-blanco);
 }
