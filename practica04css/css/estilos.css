@@ -3,13 +3,30 @@ body{
     margin: 0px auto; /*centrado*/
     max-width: 1024px;
     position: relative;
-    border: 2px solid red;
 }
 
 header{
     position: relative;
 }
 
+
+section nav ul {
+    list-style-type: none;
+    margin: 5px; /* Asegura que no haya margen exterior en la lista */
+    padding: 2px; 
+}
+
+section nav ul li {
+    display: inline-block;
+    margin-right: 5px; /* Espaciado entre elementos */
+    margin-left: 20px; /* Margen izquierdo para despegar del borde */
+    margin-top: 150px;
+}
+
+footer article {
+    margin-top: 150px;
+    display: inline-block;
+}
 #Bandera{
     position: absolute;
     right: 40px;
@@ -22,6 +39,12 @@ header{
     margin: 15px;
 }
 
+#buy{
+    position: absolute;
+    right: 310px;
+    margin-top: 130px;
+}
+
 #mundo{
     position: absolute;
     right: -15px;
@@ -31,13 +54,13 @@ header{
 #FirstBike{
     position: absolute;
     left: 20px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 #shop{
     position: absolute;
-    right: 130px;
-    margin-top: 70px;
+    right: 90px;
+    margin-top: 60px;
 }
 
 #Bike{
@@ -52,23 +75,32 @@ header{
     margin-top: 350px;
 }
 
-section nav ul {
-    list-style-type: none;
-    margin: 10; /* Asegura que no haya margen exterior en la lista */
-    padding: 0; 
+#logosFooter {
+    display: inline-block; 
+    margin-top: 30px;
+    vertical-align: middle; /* Alinea verticalmente con respecto al texto */
 }
 
-section nav ul li {
-    display: inline-block;
-    margin-right: 5px; /* Espaciado entre elementos */
-    margin-left: 20px; /* Margen izquierdo para despegar del borde */
-    margin-top: 150px;
+footer p {
+    margin-top: 50px;
+    display: inline-block; /* Muestra el texto en línea */
+    vertical-align: middle; /* Alinea verticalmente con respecto a la imagen */
+    margin-left: 10px; /* Ajusta el margen entre la imagen y el texto */
 }
+
 
 footer article {
-    margin-top: 150px;
-    display: inline-block;
+    display: inline-block; /* Muestra los elementos article en línea */
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+    margin: 10px; /* Ajusta el margen entre los elementos article */
+    padding: 15px;
 }
+
+section hr{
+    border-style: dashed;
+    color: #A3A3A3;
+}
+
 
 .nito{
     font-weight: bold;
@@ -79,5 +111,9 @@ footer article {
 }
 
 .colorverde{
-    color: #8BC500;
+    color: #73F33D;
+}
+
+.colorClaro{
+    color: #A3A3A3;
 }
