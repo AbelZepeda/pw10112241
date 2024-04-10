@@ -1,0 +1,14 @@
+body{
+    font-size: 16px;
+    margin: 0px auto; /*centrado*/
+    max-width: 1024px;
+}
+
+header{
+    margin-top: 25px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
