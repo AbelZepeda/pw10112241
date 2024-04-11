@@ -5,10 +5,33 @@ body{
 }
 
 header{
-    margin-top: 25px;
+    background-color: blue;
+    position: relative;
+}
+
+header span{
+    margin-left: 120px;
+}
+
+header nav{
+    position: absolute;
+    right: 150px;
+    margin-top: -30px;
 }
 
 header nav ul li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+#social{
+    margin-top: 5px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+#signin{
+    margin-top: 5px;
+    margin-right: 150px;
+    position: absolute;
 }
