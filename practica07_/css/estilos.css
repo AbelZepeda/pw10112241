@@ -10,17 +10,23 @@ header{
 }
 
 header span{
-    margin-left: 120px;
+    margin-left: 110px;
+    margin-top: 20px;
+    font-size: 15px;
 }
 
 header nav{
     position: absolute;
-    right: 150px;
-    margin-top: -30px;
+    height: 100px;
+    right: 90px;
+    margin-top: -20px;
+    padding: 4px;
 }
+
 
 header nav ul li{
     display: inline-block;
+    font-size: 18px;
     margin-right: 25px;
 }
 
@@ -32,7 +38,7 @@ header nav ul li{
 
 #signin{
     margin-top: 5px;
-    margin-left: 519px;
+    margin-left: 611px;
     position: absolute;
     vertical-align: middle;
 }
@@ -41,6 +47,20 @@ header nav ul li{
     background-color: #1F2938;
 }
 
+#section1>article>h1{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 35px;
+}
+
+#section1>article>span{
+    margin-left: 230px;
+    font-size: 20px;
+}
+
+#desk{
+    border-radius: 15px; 
+}
 
 .letraBlanca{
     color: white;
@@ -48,4 +68,8 @@ header nav ul li{
 
 .letraGris{
     color: gray;
+}
+
+.nito{
+     font-weight: bold;
 }
