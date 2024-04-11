@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    background-color: blue;
+    background-color: #1F2938;
     position: relative;
 }
 
@@ -21,17 +21,31 @@ header nav{
 
 header nav ul li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 #social{
-    margin-top: 5px;
-    margin-left: 80px;
+    margin-top: 2px;
+    margin-left: 70px;
     position: absolute;
 }
 
 #signin{
     margin-top: 5px;
-    margin-right: 150px;
+    margin-left: 519px;
     position: absolute;
+    vertical-align: middle;
+}
+
+#section1{
+    background-color: #1F2938;
+}
+
+
+.letraBlanca{
+    color: white;
+}
+
+.letraGris{
+    color: gray;
 }
